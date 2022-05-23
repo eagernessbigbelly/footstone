@@ -1,0 +1,15 @@
+#tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8080
+  servlet:
+    context-path: /snms-escrow-client
+
+#company
+company:
+  license:
+    #是否需要license校验
+    need: false
+    #是否开启全部请求校验
+    filter: false

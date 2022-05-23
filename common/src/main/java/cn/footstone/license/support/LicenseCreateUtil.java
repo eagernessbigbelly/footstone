@@ -87,7 +87,7 @@ public class LicenseCreateUtil {
 
         LicenseContent licenseContent = new LicenseContent();
         X500Principal holder = new X500Principal(
-                "CN=teleinfo, OU=teleinfo, O=teleinfo, L=BJ, ST=BJ, C=CN");
+                "CN=company, OU=company, O=company, L=BJ, ST=BJ, C=CN");
         licenseContent.setHolder(holder);
         licenseContent.setIssuer(null);
         licenseContent.setSubject(licenseCreateParam.getSubject());
