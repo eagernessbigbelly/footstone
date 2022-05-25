@@ -1,4 +1,4 @@
-# 代管端服务 -- Teleinfo
+# license服务
 
 > 启动需判断是否启用license，如果启用则需要获取license证书
 
